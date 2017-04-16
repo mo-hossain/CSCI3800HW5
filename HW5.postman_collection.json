@@ -1,0 +1,259 @@
+{
+	"variables": [],
+	"info": {
+		"name": "HW5",
+		"_postman_id": "fa816be5-8a48-d2fe-7b61-db5595e58cac",
+		"description": "For web api hw5",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://mohossain-test.apigee.net/hw5",
+			"request": {
+				"url": "http://mohossain-test.apigee.net/hw5",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": "Base GET request"
+			},
+			"response": []
+		},
+		{
+			"name": "http://mohossain-test.apigee.net/hw5",
+			"request": {
+				"url": "http://mohossain-test.apigee.net/hw5",
+				"method": "POST",
+				"header": [],
+				"body": {},
+				"description": "Base POST request"
+			},
+			"response": []
+		},
+		{
+			"name": "http://mohossain-test.apigee.net/hw5",
+			"request": {
+				"url": "http://mohossain-test.apigee.net/hw5",
+				"method": "PUT",
+				"header": [],
+				"body": {},
+				"description": "Base PUT request"
+			},
+			"response": []
+		},
+		{
+			"name": "http://mohossain-test.apigee.net/hw5",
+			"request": {
+				"url": "http://mohossain-test.apigee.net/hw5",
+				"method": "DELETE",
+				"header": [],
+				"body": {},
+				"description": "Base DELETE request"
+			},
+			"response": []
+		},
+		{
+			"name": "http://mohossain-test.apigee.net/hw5",
+			"request": {
+				"url": "http://mohossain-test.apigee.net/hw5/movies",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": "GET movies request no specific title"
+			},
+			"response": []
+		},
+		{
+			"name": "http://mohossain-test.apigee.net/hw5",
+			"request": {
+				"url": "http://mohossain-test.apigee.net/hw5/movies",
+				"method": "POST",
+				"header": [],
+				"body": {},
+				"description": "POST movies request no specific title and no body"
+			},
+			"response": []
+		},
+		{
+			"name": "http://mohossain-test.apigee.net/hw5",
+			"request": {
+				"url": "http://mohossain-test.apigee.net/hw5/movies",
+				"method": "PUT",
+				"header": [],
+				"body": {},
+				"description": "PUT movies request no specific title"
+			},
+			"response": []
+		},
+		{
+			"name": "http://mohossain-test.apigee.net/hw5",
+			"request": {
+				"url": "http://mohossain-test.apigee.net/hw5/movies",
+				"method": "DELETE",
+				"header": [],
+				"body": {},
+				"description": "DELETE movies request no specific title"
+			},
+			"response": []
+		},
+		{
+			"name": "http://mohossain-test.apigee.net/hw5",
+			"request": {
+				"url": "http://mohossain-test.apigee.net/hw5/movies",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\" : \"ElOHEL\",\n\t\"releasedate\" : \"12-25-2000\",\n    \"actor\" : [\n        \"Jesus\",\n        \"Adam\",\n        \"Dank Lord\"\n      ]\n}"
+				},
+				"description": "POST movies request no specific title and a body"
+			},
+			"response": []
+		},
+		{
+			"name": "http://mohossain-test.apigee.net/hw5",
+			"request": {
+				"url": "http://mohossain-test.apigee.net/hw5/movies/ELOHEL",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\" : \"ElOHEL\",\n\t\"releasedate\" : \"12-25-2000\",\n    \"actor\" : [\n        \"Jesus\",\n        \"Adam\",\n        \"Dank Lord\"\n      ]\n}"
+				},
+				"description": "GET movies request with a specific title"
+			},
+			"response": []
+		},
+		{
+			"name": "http://mohossain-test.apigee.net/hw5",
+			"request": {
+				"url": "http://mohossain-test.apigee.net/hw5/movies/ELOHEL",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\" : \"ElOHEL\",\n\t\"releasedate\" : \"12-25-2000\",\n    \"actor\" : [\n        \"Jesus\",\n        \"Adam\",\n        \"Dank Lord\"\n      ]\n}"
+				},
+				"description": "POST movies request with a specific title"
+			},
+			"response": []
+		},
+		{
+			"name": "http://mohossain-test.apigee.net/hw5",
+			"request": {
+				"url": "http://mohossain-test.apigee.net/hw5/movies/ELOHEL",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\" : \"Nice\",\n\t\"releasedate\" : \"12-25-2000\",\n    \"actor\" : [\n        \"Jesus\",\n        \"Adam\",\n        \"Dank Lord\"\n      ]\n}"
+				},
+				"description": "PUT movies request with a specific title"
+			},
+			"response": []
+		},
+		{
+			"name": "http://mohossain-test.apigee.net/hw5",
+			"request": {
+				"url": "http://mohossain-test.apigee.net/hw5/movies/ELOHEL",
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\" : \"Nice\",\n\t\"releasedate\" : \"12-25-2000\",\n    \"actor\" : [\n        \"Jesus\",\n        \"Adam\",\n        \"Dank Lord\"\n      ]\n}"
+				},
+				"description": "DELETE movies request with a specific title"
+			},
+			"response": []
+		},
+		{
+			"name": "http://mohossain-test.apigee.net/hw5",
+			"request": {
+				"url": "http://mohossain-test.apigee.net/hw5/movies/Ball Fondlers?reviews=true",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\" : \"Nice\",\n\t\"releasedate\" : \"12-25-2000\",\n    \"actor\" : [\n        \"Jesus\",\n        \"Adam\",\n        \"Dank Lord\"\n      ]\n}"
+				},
+				"description": "GET movies request with a specific title and a valid query parameter"
+			},
+			"response": []
+		},
+		{
+			"name": "http://mohossain-test.apigee.net/hw5",
+			"request": {
+				"url": "http://mohossain-test.apigee.net/hw5/movies/Ball Fondlers?reviews=false",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\" : \"Nice\",\n\t\"releasedate\" : \"12-25-2000\",\n    \"actor\" : [\n        \"Jesus\",\n        \"Adam\",\n        \"Dank Lord\"\n      ]\n}"
+				},
+				"description": "GET movies request with a specific title and an invalid query parameter"
+			},
+			"response": []
+		},
+		{
+			"name": "http://mohossain-test.apigee.net/hw5",
+			"request": {
+				"url": "http://mohossain-test.apigee.net/hw5/movies/kk",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\" : \"Nice\",\n\t\"releasedate\" : \"12-25-2000\",\n    \"actor\" : [\n        \"Jesus\",\n        \"Adam\",\n        \"Dank Lord\"\n      ]\n}"
+				},
+				"description": "GET movies request with a specific title not in DB with no query parameter"
+			},
+			"response": []
+		}
+	]
+}
